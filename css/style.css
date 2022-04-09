@@ -1,0 +1,123 @@
+/*Color Library*/
+:root{
+    --primary: #FF4000;
+   --primary-dek: #c30;
+   --primary-tnt: #feefdd;
+   --secondary: #50b2c0;
+   --secondary-tnt: #b4deea;
+   --tertiary: #660036;
+   --tertiary-drk: #201;
+   --tertiary-tnt: #ffe6f2;
+}
+
+body{
+
+/*General*/   
+background-color: var(--primary-tnt); 
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Text*/
+h2{
+    color: #feefdd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+    font-style: bold;
+    font-weight: 400;
+    text-align: center;
+}
+
+h3{
+    color:#660033;
+    font-size: 44px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 66px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.tittlevalues{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+    color: gray;
+}
+
+p{
+    /* Intro Text */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 35px;
+/* or 146% */
+
+text-align: center;
+}
+
+
+.herotext{
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    margin: 20%;
+
+}
+
+.texthero{
+    color: #feefdd;
+}
+
+#backgoundheroimage{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(102, 0, 51, 0.6)),url("../Images/hero-image1.jpg");
+    height: 880px;
+}
+
+.contactinfo{
+    background-color: #660033;
+    
+}
+
+.About{
+    margin: 8%;
+}
+
+.values{
+    padding-top: 5%;
+    column-count: 3;
+    align-items: center;
+}
+
+.work{
+    background-color: #b4deea;
+}
+
+.worktext{
+    margin: 8%;
+    padding-top: 5%;
+}
+
+.workimages{
+    column-count: 2;
+    margin: 5%;
+    padding-left: 3%;
+}
+
+.smallworkimages{
+    margin-left: 5%;
+    align-items: center;
+    padding-left: 5%;
+    padding-bottom: 5%;
+  
+}
+
+.contact2{
+    width: 850px;
+}
+
+
+.footer{
+    background-color: #660033;
+}
